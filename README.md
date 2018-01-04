@@ -25,6 +25,13 @@ cd ~/.vim/bundle
 git clone https://github.com/esneider/YUNOcommit.vim.git
 ```
 
+## Tips ##
+Saving with a slient mapping won't trigger YUNOcommit.
+```viml
+" ex:
+nnoremap <C-s> :silent w<CR>
+```
+
 ## Credits
 
 GArg :heart: Git
